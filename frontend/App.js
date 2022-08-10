@@ -4,6 +4,8 @@ import useDarkMode from "./hooks/useDarkMode";
 
 import Charts from "./components/Charts";
 import Navbar from "./components/Navbar";
+import useLocalStorage from "./hooks/useLocalStorage";
+
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
